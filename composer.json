@@ -1,0 +1,19 @@
+{
+  "name": "opencubes/common",
+  "description": "OpenCubes",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Beno!t POLASZEK"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenCubes\\Common\\": "src/Common"
+    }
+  }
+}
